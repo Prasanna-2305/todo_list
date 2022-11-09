@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main {
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  margin-top: 12px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  background-color: lightblue;
+  align-items: center;
+  box-shadow: 8px 10px gainsboro;
+  justify-content: center;
+}
+
+.head {
+  align-items: center;text-shadow: 0in;
+  color: black;
+  text-align: center;
+  margin-top: 4px
+}
+
+.bttn {
+  padding: 2px 4px;
+  background: blanchedalmond;
+  color: black;
+  border: 2px solid rgb(69, 75, 53);
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.cont {
+  border: 2px solid black;
+}
+
+div.background {
+  background-color: white;
+  /* border: 2px solid grey; */
+  background: lightblue url("./images/todo.jpeg") no-repeat center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  min-height: 500px;
+}
+
+div.transbox {
+  background-color: #9494b8;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  padding: 20px;
+  margin: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.int {
+  border:none;
+  border-bottom: rgb(56, 30, 30) solid 2px;
+  box-shadow: 1px black;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+}
+
+.write-to-do{
+display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .input {
+    width: 180px;
+  }
+  .padding{
+    padding:0px ;
+  }
+  .write-to-do{
+    display: block;
+  }
+}
